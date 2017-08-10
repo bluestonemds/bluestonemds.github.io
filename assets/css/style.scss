@@ -3,7 +3,21 @@
 
 @import "{{ site.theme }}";
 
-img {
-    border:1px solid #ccc;
-    padding:8px;
+
+header ul {
+  list-style: none;
+  height: 275px;
+  padding: 0;
+  background: #f4f4f4;
+  width: 270px;
+}
+
+header li{
+  float:none;
+  height:20px;
+  background: #eee;
+  margin-bottom:5px;
+}
+header li a{
+  font-size:12px;
 }
