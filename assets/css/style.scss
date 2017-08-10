@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-
 header ul {
   list-style: none;
   height: 242px;
@@ -12,13 +11,19 @@ header ul {
   width: 270px;
 }
 
-  header li {
-    float: none;
-    height: 30px;
-    background: #fff;
-    margin: 5px 5px 10px 5px;
-    width: 259px;
+header li {
+  float: none;
+  height: 30px;
+  background: #fff;
+  margin: 5px 5px 10px 5px;
+  width: 259px;
 }
-header li a{
-  font-size:14px;
+
+header ul li + li + li {
+  border-right: none;
+  width: 259px;
+}
+
+header li a {
+  font-size: 14px;
 }
