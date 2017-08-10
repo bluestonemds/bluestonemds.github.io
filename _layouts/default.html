@@ -15,16 +15,6 @@
     <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
         <ul>
             <li><a href="/">介绍</a></li>
             <li><a href="/weixin">微信账号维护</a></li>
@@ -33,7 +23,6 @@
             <li><a href="/upload">上传数据</a></li>
             <li><a href="/set">系统设置</a></li>
         </ul>
-        {% endif %}
     </header>
     <section>
 
