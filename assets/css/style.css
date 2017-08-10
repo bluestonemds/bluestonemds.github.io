@@ -1,0 +1,9 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+img {
+    border:1px solid #ccc;
+    padding:8px;
+}
