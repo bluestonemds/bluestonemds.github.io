@@ -6,18 +6,20 @@
 
 header ul {
   list-style: none;
-  height: 275px;
+  height: 242px;
   padding: 0;
   background: #f4f4f4;
   width: 270px;
 }
 
 header li{
-  float:none;
-  height:20px;
-  background: #eee;
-  margin-bottom:5px;
+  header li {
+    float: none;
+    height: 30px;
+    background: #fff;
+    margin: 5px 5px 10px 5px;
+    width: 259px;
 }
 header li a{
-  font-size:12px;
+  font-size:14px;
 }
